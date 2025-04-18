@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background: url('/proyecto_en_grupo_UADE/media/fondo_Ala.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .form-box {
+    background-color: #ddd;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #666;
+    width: 30rem;
+  }
+  
+  .form-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px #aaa;
+  }
+  
+  .form-box label {
+    font-size: 14px;
+    margin-top: 15px;
+    display: block;
+  }
+  
+  .form-box input[type="text"],
+  .form-box input[type="email"],
+  .form-box input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #aaa;
+  }
+  
+  .doc {
+    background-color: #222;
+    color: white;
+  }
+  
+  .terms {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .terms input {
+    margin-right: 10px;
+    margin-top: inherit;
+  }
+  
+  button {
+    margin-top: 15px;
+    width: 100%;
+    background: #222;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .alt-login {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 10px;
+  }
+  
+  .socials img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
