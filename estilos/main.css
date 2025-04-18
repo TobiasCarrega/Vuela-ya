@@ -117,11 +117,18 @@ body {
     gap: 2rem;
   }
   
-  footer .social a {
+  footer .social img{
     margin-right: 1rem;
     font-size: 1.2rem;
     color: #fff;
     text-decoration: none;
+    width: 2.5rem;
+    cursor: pointer;
+  }
+
+  footer .social img:hover{
+    border: #ccc;
+    transition: ease-in;
   }
   
   footer .info ul {
