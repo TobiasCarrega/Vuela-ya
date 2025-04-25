@@ -83,6 +83,10 @@ body {
     text-align: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
+
+  .card:hover{
+    transform: scale(1.05);
+  }
   
   .card img {
     width: 100%;
@@ -134,6 +138,7 @@ body {
   footer .social img:hover{
     border: #ccc;
     transition: ease-in;
+    transform: scale(1.05);
   }
   
   footer .info ul {
