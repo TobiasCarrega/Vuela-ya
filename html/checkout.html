@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario de Pasajero</title>
+  <link rel="stylesheet" href="/estilos/checkout.css" />
+</head>
+<body>
+  <main class="form-container">
+    <form>
+      <!-- Datos del pasajero/a -->
+      <section class="form-section">
+        <h2>🧍 Persona adulta 1</h2>
+
+        <div class="form-group">
+          <label>Nombre</label>
+          <input type="text" placeholder="Ingresá el nombre del pasajero/a" />
+        </div>
+        <div class="form-group">
+          <label>Apellido</label>
+          <input type="text" placeholder="Ingresá el apellido del pasajero/a" />
+        </div>
+
+        <div class="form-group">
+          <label>Fecha de Nacimiento</label>
+          <div class="dob">
+            <select><option>Día</option></select>
+            <select><option>Mes</option></select>
+            <select><option>Año</option></select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Género</label>
+          <label><input type="radio" name="genero" /> Femenino</label>
+          <label><input type="radio" name="genero" /> Masculino</label>
+        </div>
+
+        <div class="form-group">
+          <label>Tipo de Documento</label>
+          <select><option>Seleccionar</option></select>
+        </div>
+
+        <div class="form-group">
+          <label>Número de Documento</label>
+          <input type="text" placeholder="N° de doc." />
+        </div>
+
+        <div class="form-group">
+          <label>País de Emisión</label>
+          <select><option>Argentina</option></select>
+        </div>
+
+        <div class="form-group">
+          <label>Nacionalidad</label>
+          <select><option>Argentina</option></select>
+        </div>
+
+        <div class="form-group-checkbox">
+          <label><input type="checkbox" /> Soy pasajero/a frecuente.</label>
+          <label><input type="checkbox" /> Asistencias y Comidas Especiales</label>
+        </div>
+      </section>
+
+      <!-- Datos de reserva -->
+      <section class="form-section">
+        <h2>📩 Datos de reserva</h2>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="Este email va a quedar asociado a tu reserva" />
+        </div>
+        <div class="form-group">
+          <label>Confirmá tu email</label>
+          <input type="email" placeholder="Confirmá tu correo electrónico" />
+        </div>
+
+        <div class="form-group">
+          <label>Teléfono</label>
+          <div class="phone-group">
+            <label><input type="radio" name="telefono" /> Casa</label>
+            <label><input type="radio" name="telefono" /> Celular</label>
+          </div>
+          <div class="phone-inputs">
+            <select><option>Argentina (54)</option></select>
+            <input type="text" placeholder="Cód. Área" />
+            <input type="text" placeholder="Número de Teléfono" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Términos y acciones -->
+      <section class="form-section">
+        <div class="form-group-checkbox">
+          <label><input type="checkbox" /> He leído y acepto los <a href="#">términos</a></label>
+          <label><input type="checkbox" /> Acepto recibir comunicaciones por email</label>
+        </div>
+
+        <button type="submit" class="btn-submit">Si
+</main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="info">
+      <h4>Soporte</h4>
+      <ul>
+        <li><a href="#">Términos y condiciones</a></li>
+        <li><a href="#">Política de privacidad</a></li>
+        <li><a href="#">Política de seguridad</a></li>
+        <li><a href="#">Trabajá con nosotros</a></li>
+        <li><a href="#">Misión, visión y valores</a></li>
+      </ul>
+    </div>
+    <div class="social">
+      <a><img src="/media/logo_face.svg" alt=""></a>
+      <a><img src="/media/google-seeklogo.svg" alt=""></a>
+      <a><img src="/media/instagram-seeklogo.png" alt=""></a>
+      <a><img src="/media/twitter-x-seeklogo.png" alt=""></a>
+    </div>
+  </footer>

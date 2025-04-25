@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f8;
+  }
+  
+  .form-container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+  
+  h2 {
+    color: #1d3f72;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .dob select {
+    width: 32%;
+    display: inline-block;
+    margin-right: 1%;
+  }
+  
+  .form-group-checkbox {
+    margin-top: 15px;
+  }
+  
+  .form-group-checkbox label {
+    display: block;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  .phone-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .phone-inputs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .phone-inputs input,
+  .phone-inputs select {
+    flex: 1;
+  }
+  
+  .btn-submit {
+    background-color: #1d3f72;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn-submit:hover {
+    background-color: #17406a;
+  }
+  
+  
+  footer {
+    background: #222;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  footer .social img{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    width: 2.5rem;
+    cursor: pointer;
+  }
+
+  footer .social img:hover{
+    border: #ccc;
+    transition: ease-in;
+  }
+  
+  footer .info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer .info ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer .info ul li a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  footer .info ul li a:hover {
+    color: white;
+  }
