@@ -69,6 +69,10 @@
     cursor: pointer;
     transition: 0.3s;
   }
+
+  .atras{
+    width: 2rem;
+  }
   
   button:hover {
     background-color: #444;

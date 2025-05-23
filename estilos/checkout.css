@@ -120,6 +120,7 @@
   footer .social img:hover{
     border: #ccc;
     transition: ease-in;
+    transform: scale(1.05);
   }
   
   footer .info ul {
