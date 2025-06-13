@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
+
         // var nombre = "Lucia";
         // var edad = 20;
         // document.write("Hola ", nombre,  " <br> tienes ", edad, );
@@ -105,13 +99,11 @@
         // }else{
         //     alert("Es impar");
         // }
-
-    </script>
-    <style>
+    nombre=document.getElementById("nombre").value;
+        document.getElementById("mostrarEnPantalla").addEventListener("click",mostrar);
+    function mostrar(){
+        alert('bienvenido' + nombre )
+    }
         
-    </style>
-</head>
-<body>
     
-</body>
-</html>
+    
