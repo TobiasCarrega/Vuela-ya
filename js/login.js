@@ -1,6 +1,8 @@
 function mensajebienvenida(nombre,contraseña){
     // Funcion que muestra el mesaje de bienvenida
-    alert('Bienvenido ' + nombre )
+    alert('Bienvenid@ ' + nombre );            
+    window.location.href = "./html/main.html";
+
     // alert("su contraseña es" + contraseña)
 }
 
