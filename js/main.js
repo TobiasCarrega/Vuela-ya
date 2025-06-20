@@ -1,6 +1,4 @@
 
-
-
 // CÓDIGO JAVA SCRIPT PROVENIENTE DE LA PÁGINA PRINCIPAL
 window.onload = function() {
   alert("¡Bienvenido a Vuela Ya! ✈️\nExplorá los mejores destinos y promociones.");
