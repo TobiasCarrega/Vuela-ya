@@ -43,7 +43,7 @@ body {
     font-size: 0.8rem;
   }
   
-  .search-box input {
+  .search-box input,select {
     padding: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 5px;
